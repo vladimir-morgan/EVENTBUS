@@ -237,7 +237,7 @@ export default {
              // this.modal.size='';
              // this.modal.quantity='';
              // this.modal.price='';
-              this.modal={}
+              this.modal={};
             return 0
             }
             this.salemodel.quantity=Number(this.salemodel.quantity)-Number(this.modal.quantity);
