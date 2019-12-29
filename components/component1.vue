@@ -241,12 +241,12 @@ export default {
             return 0
             }
             this.salemodel.quantity=Number(this.salemodel.quantity)-Number(this.modal.quantity);
-            // this.modal={};
-            this.modal.model='';
-            this.modal.color='';
-            this.modal.size='';
-            this.modal.quantity='';
-            this.modal.price='';
+            this.modal={};
+            // this.modal.model='';
+            // this.modal.color='';
+            // this.modal.size='';
+            // this.modal.quantity='';
+            // this.modal.price='';
           }
 },
 
